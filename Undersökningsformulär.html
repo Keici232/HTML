@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- meta koden är för att jag ska
+		kunna använda svenska alfabet-->
+	<meta charset="utf-8">
+	<title>Undersökningsformulär för att arbeta i företag</title>
+</head>
+<body>
+<h1>Fyll i undersökningsforumläret</h1>
+
+<label for="fname"><b>Ange ditt fullständiganamn:</b></label>
+<input type="text" name="fname" size="35" maxlength="20">
+<br>
+<br>
+<textarea style="background-color: blue; color: chartreuse;" cols="30" rows="4">
+ Skriv lite om dig själv här.
+</textarea>
+<br>
+<br>
+<i>Utöver du någon sport: </i>
+  <input type="radio" name="fråga" value="JA">JA
+  <input type="radio" name="fråga" value="NEJ">NEJ
+  <br>
+  <br>
+
+<b><i>Vilka sätt föredrar du att läsa om intressanta saker.</i></b>
+<br>
+<input type="checkbox" name="val" value="böcker">
+<label for="böcker">Böcker</label>
+<input type="checkbox" name="val" value="tidningar">
+<label for="tidningar">Tidningar</label>
+<input type="checkbox" name="val" value="online">
+<label for="online">Online</label>
+<br>
+<br>
+
+<label for="genre">Välj en genre</label>
+
+<select name="genre">
+	<option></option>
+	<option value="action">Action</option>
+	<option value="romantik">Romantik</option>
+	<option value="komedi">Komedi</option>
+	<option value="drama">Drama</option>
+	<option value="skräck">Skräck</option>
+
+</select>
+<br>
+<br>
+<label>Tryck för att spara samt skicka ditt formulär!</label><br>
+<input type="submit" name="submit">
+
+</body>
+</html>
